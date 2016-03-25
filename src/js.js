@@ -111,6 +111,7 @@ $(function(){
 
 	_up.css({'position':'fixed','bottom':-100,'right':20,'z-index':10,'width':40,'cursor':'pointer','-webkit-transform':'rotate(90deg)','-ms-transform':'rotate(90deg)','transform':'rotate(90deg)'});
 	_up.bind('click',function(){$('html, body').animate({scrollTop:0},'normal');});
+	
 	$("body").append(_up);
 
 	$.ajax({ url:_config.data, dataType:"text", success: onload });	
