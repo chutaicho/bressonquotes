@@ -16,7 +16,7 @@ $(function(){
 	// next color right
 	var colorIndices = [0,1,2,3];
 	//transition speed
-	var gradientSpeed = 0.001;
+	var gradientSpeed = 0.0001;
 
 	function updateGradient()
 	{
