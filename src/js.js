@@ -60,7 +60,7 @@ $(function(){
 
 	// Text Loading ////////////////////////////////////////////////////////
 
-	var _up = $('<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 197.402 197.402" style="enable-background:new 0 0 197.402 197.402;" xml:space="preserve"><g><polygon style="fill:#FFFFFF; opacity:0.5" points="146.883,197.402 45.255,98.698 146.883,0 152.148,5.418 56.109,98.698 152.148,191.98"/></g></svg>');
+	var _up = $('<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 197.402 197.402" style="enable-background:new 0 0 197.402 197.402;" xml:space="preserve"><g><polygon style="fill:#000000; opacity:0.5" points="146.883,197.402 45.255,98.698 146.883,0 152.148,5.418 56.109,98.698 152.148,191.98"/></g></svg>');
 	var _config = { numLoads: 10, cntLoads: 0, showUP: false, upThreshold: 1200, data: "data.txt" };
 	var _quotes = [];
 
