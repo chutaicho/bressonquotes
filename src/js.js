@@ -6,7 +6,8 @@ $(function(){
 	}
 
 	// http://codepen.io/quasimondo/pen/lDdrF
-	var colors = new Array([60,200,60],[200,35,98],[45,175,230],[200,0,200],[200,128,0],[62,35,200]);
+	// var colors = new Array([60,200,60],[200,35,98],[45,175,230],[200,0,200],[200,128,0],[62,35,200]);
+	var colors = new Array([179,226,205],[253,205,172],[203,213,232],[244,202,228],[230,245,201],[255,242,174]);
 	var step = getRandom(0,1.0);
 
 	//color table indices for:
@@ -103,8 +104,9 @@ $(function(){
 	function appendQuote(q)
 	{
 		var el = $("<div class='quotes'>" + q + "</div>");
-		var fs = getRandom(1.0,2.0);
-		el.css({'font-size':fs+'em','line-height':'1.5em'});
+		// var fs = getRandom(-100,100);
+		// el.css({'font-size':fs+'em','line-height':'1.5em'});
+		// el.css({'font-variation-settings': "'wdth' 50"});
 		$("#wrapper").append(el);
 		$("#wrapper").append("<div class='quotes break'>" + "/" + "</div>");
 	}
